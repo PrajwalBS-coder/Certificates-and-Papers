@@ -1,0 +1,99 @@
+show dbs
+admin   40.00 KiB
+config  92.00 KiB
+local   40.00 KiB
+use amin
+'switched to db amin'
+show dbs
+admin   40.00 KiB
+config  92.00 KiB
+local   40.00 KiB
+db.dropDatabase()
+{ ok: 1, dropped: 'amin' }
+show databases
+admin    40.00 KiB
+config  108.00 KiB
+local    40.00 KiB
+exit
+MongoshUnimplementedError: [COMMON-90002] the exit/quit commands are not supported for current platform: Compass
+quit()
+MongoshUnimplementedError: [COMMON-90002] the exit/quit commands are not supported for current platform: Compass
+ 
+ 
+ 
+ 
+quit()
+MongoshUnimplementedError: [COMMON-90002] the exit/quit commands are not supported for current platform: Compass
+use amin
+'already on db amin'
+db.jhon.insertOne({name:"Prajwal",age:24,marks:7.87})
+{
+  acknowledged: true,
+  insertedId: ObjectId("6461de811922a82f037e92d4")
+}
+show databases
+admin    40.00 KiB
+amin      8.00 KiB
+config  108.00 KiB
+local    40.00 KiB
+db.jhon.insertOne({name:"Jarvis",age:24,marks:8.75})
+{
+  acknowledged: true,
+  insertedId: ObjectId("6461dfb61922a82f037e92d5")
+}
+db
+amin
+show collections
+jhon
+
+to drop collection use db.amin.drop()
+
+
+db.jhon.find()
+
+
+id: ObjectId("6461de811922a82f037e92d4"),
+  name: 'Prajwal',
+  age: 24,
+  marks: 7.87
+}
+
+db.jhon.find().pretty()
+
+d: ObjectId("6461dfb61922a82f037e92d5"),
+  name: 'Jarvis',
+  age: 24,
+  marks: 8.75
+}
+
+
+name:"Data Science",noofcourcse:23,type:"IT",active:true
+
+
+
+db.gla.find({name:"Big Data"})
+
+db.gla.find({name:"Big Data"},{name:1})
+
+db.gla.find({name:"Big Data"},{name:1,_id:0})
+
+
+db.gla.find().limit(2)
+
+
+db.gla.findOne({active:true})
+
+db.gla.find({active:true}).limit(1).skip(1)
+
+
+db.gla.updateOne({name:"Software"},{$set:{name:"Cloud"}})
+
+
+
+db.gla.updateMany({type:"DevOPs"},{$set:{active:false}})
+
+db.gla.deleteMany({type:"DevOPs"})
+
+db.gla.deleteMany({})
+
+db.dropDatabase()

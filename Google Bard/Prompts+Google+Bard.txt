@@ -1,0 +1,36 @@
+Tech: 
+We will execute the program for swapping two numbers using C++ showing the change of logic and increase in difficulty level. 
+Prompt 1 -  C++ program to swap two numbers 
+Prompt 2 -  Another C++ program to swap two numbers (every time logic changes and difficulty level increases)
+Prompt 3 -  Can we swap two numbers using recursion 
+
+Data  - Steps to preprocessing numerical data, normalizing data - Code for that
+Prompt 1 - Steps to preprocess numerical data 
+Prompt 2 - Code to preprocess numerical data in Python
+
+
+Artificial Intelligence
+Prompt 1 - I have audio with 3 people speaking at a time, how to separate them into 3 different audios.
+Prompt 2 - Code to separate 3 people single audio into different ones in Python
+
+Human Resource - Creating effective job descriptions
+Prompt 1 - Create a job description for the position of a Product Manager
+Prompt 2 - What are the most in-demand skills for the role of Product Manager?
+Prompt 3 - Can you specify the technical skills required for this role?
+Prompt 4 - Add more technical skills to this list.
+
+Marketing - Identification of Target Audience
+Prompt 1 - I am planning to open an cake shop in the town. How can I identify the target audience for the cake shop?
+Prompt 2 - What should be the location of the cake shop in the town?
+Prompt 3 - How can I beat the competition and gain competitive advantage for
+       the cake shop?
+Prompt 4 - All the above points are already covered by the competitors. 
+      Can you suggest something unique?
+
+General - Email writing for lead generation
+Prompt 1 - Write a persuasive email to send to potential leads for Data Science, 
+The mail should not be more than 200 words and should include a clear call to action. 
+Use a professional tone to build trust and establish a connection with the reader
+
+
+ 253-0945
